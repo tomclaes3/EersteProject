@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <p> Edit je gegevens en sla op. als je terug naar de home page wil zonder iets te wijzigen, druk op anuleer.</p>
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+        <button type="submit">Opslaan</button>
+        <a href="{{ path('website_index') }}">Annuleer</a>
+    {{ form_end(form) }}
+{% endblock %}
