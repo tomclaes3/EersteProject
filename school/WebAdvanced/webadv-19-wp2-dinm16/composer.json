@@ -1,0 +1,6 @@
+{
+    "require": {
+        "doctrine/doctrine-bundle": "^1.11",
+        "symfony/routing": "^4.2"
+    }
+}
