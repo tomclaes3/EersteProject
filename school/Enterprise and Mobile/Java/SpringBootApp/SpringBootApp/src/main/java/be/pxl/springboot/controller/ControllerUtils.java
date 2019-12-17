@@ -1,4 +1,4 @@
-package elision.hangry.controllers;
+package be.pxl.springboot.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
